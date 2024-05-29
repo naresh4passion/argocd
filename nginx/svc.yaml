@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-deployment
+  name: nginx-service
   labels:
-    service: nginx-deployment
+    service: nginx-service
 spec:
   ports:
   - port: 80
