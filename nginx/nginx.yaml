@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.14.2
+        image: nginx:latest # adding latest for the temporary 
         ports:
         - containerPort: 80
         volumeMounts:
